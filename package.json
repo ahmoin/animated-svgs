@@ -1,0 +1,33 @@
+{
+  "name": "animated-svgs",
+  "version": "1.0.0",
+  "description": "Create animated svgs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmoin/animated-svgs.git"
+  },
+  "homepage": "https://github.com/ahmoin/animated-svgs#readme",
+  "bugs": "https://github.com/ahmoin/animated-svgs/issues",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts",
+    "dev": "tsup src/index.ts --watch"
+  },
+  "keywords": [
+    "svg",
+    "animate",
+    "vector",
+    "graphics"
+  ],
+  "author": "Ahsan Moin <ahmoin@duck.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
