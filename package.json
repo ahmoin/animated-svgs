@@ -24,7 +24,7 @@
     "vector",
     "graphics"
   ],
-  "author": "Ahsan Moin <ahmoin@duck.com>",
+  "author": "Ahsan Moin <ahmoin@tutamail.com>",
   "license": "MIT",
   "devDependencies": {
     "tsup": "^8.2.4",
