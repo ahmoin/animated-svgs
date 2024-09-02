@@ -11,7 +11,7 @@ npm i animated-svgs
 ```ts
 import fs from "fs";
 import path from "path";
-import generateSVG from "animated-svgs";
+import { generateSVG } from "animated-svgs";
 
 const width = 2048;
 const height = 200;
